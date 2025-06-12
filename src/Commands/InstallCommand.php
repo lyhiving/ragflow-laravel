@@ -8,8 +8,8 @@ use RAGFlow\Laravel\Support\View;
 class InstallCommand extends Command
 {
     private const LINKS = [
-        'Repository'          => 'https://github.com/lyhiving/RAGFlow-laravel',
-        'RAGFlow PHP Docs'    => 'https://github.com/lyhiving/RAGFlow-php-client#readme',
+        'Repository'          => 'https://github.com/futuremeng/RAGFlow-laravel',
+        'RAGFlow PHP Docs'    => 'https://github.com/futuremeng/RAGFlow-php-client#readme',
         'Join us on Telegram' => 'https://t.me/+66GDs6UM6RcxY2U8',
     ];
 
@@ -112,13 +112,13 @@ class InstallCommand extends Command
     private function openRepositoryInBrowser(): void
     {
         if (PHP_OS_FAMILY == 'Darwin') {
-            exec('open https://github.com/lyhiving/RAGFlow-laravel');
+            exec('open https://github.com/futuremeng/RAGFlow-laravel');
         }
         if (PHP_OS_FAMILY == 'Windows') {
-            exec('start https://github.com/lyhiving/RAGFlow-laravel');
+            exec('start https://github.com/futuremeng/RAGFlow-laravel');
         }
         if (PHP_OS_FAMILY == 'Linux') {
-            exec('xdg-open https://github.com/lyhiving/RAGFlow-laravel');
+            exec('xdg-open https://github.com/futuremeng/RAGFlow-laravel');
         }
     }
 

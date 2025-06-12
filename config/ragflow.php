@@ -1,8 +1,8 @@
 <?php
 /*
- * @Author: FutureMeng lyhiving@gmail.com
+ * @Author: FutureMeng futuremeng@gmail.com
  * @Date: 2025-01-24 16:33:12
- * @LastEditors: FutureMeng lyhiving@gmail.com
+ * @LastEditors: FutureMeng futuremeng@gmail.com
  * @LastEditTime: 2025-01-24 16:53:50
  * @FilePath: /RAGFlow-laravel/config/ragflow.php
  * @Description: 

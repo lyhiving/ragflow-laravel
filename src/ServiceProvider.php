@@ -1,8 +1,8 @@
 <?php
 /*
- * @Author: FutureMeng lyhiving@gmail.com
+ * @Author: FutureMeng futuremeng@gmail.com
  * @Date: 2025-01-24 16:33:12
- * @LastEditors: FutureMeng lyhiving@gmail.com
+ * @LastEditors: FutureMeng futuremeng@gmail.com
  * @LastEditTime: 2025-01-24 16:52:18
  * @FilePath: /RAGFlow-laravel/src/ServiceProvider.php
  * @Description:
@@ -41,7 +41,6 @@ final class ServiceProvider extends BaseServiceProvider implements DeferrablePro
 
             return RAGFlow::factory()
                 ->withApiKey($apiKey)
-                ->withBaseUri($apiEndpoint) // default: api.ragflow.server/v1
                 ->withHttpClient(new \GuzzleHttp\Client(['timeout' => config('ragflow.request_timeout', 30)]))
                 ->make();
         });

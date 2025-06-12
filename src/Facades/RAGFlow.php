@@ -21,7 +21,6 @@ use RAGFlow\Responses\StreamResponse;
  * @method static \RAGFlow\Resources\FineTunes fineTunes()
  * @method static \RAGFlow\Resources\Images images()
  * @method static \RAGFlow\Resources\Models models()
- * @method static \RAGFlow\Resources\DataSets datasets()
  * @method static \RAGFlow\Resources\Moderations moderations()
  * @method static \RAGFlow\Resources\Threads threads()
  * @method static \RAGFlow\Resources\VectorStores vectorStores()
