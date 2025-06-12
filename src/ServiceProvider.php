@@ -41,6 +41,7 @@ final class ServiceProvider extends BaseServiceProvider implements DeferrablePro
 
             return RAGFlow::factory()
                 ->withApiKey($apiKey)
+                ->withBaseUri($apiEndpoint)
                 ->withHttpClient(new \GuzzleHttp\Client(['timeout' => config('ragflow.request_timeout', 30)]))
                 ->make();
         });
