@@ -18,6 +18,7 @@ use RAGFlow\Responses\StreamResponse;
  * @method static \RAGFlow\Resources\Embeddings embeddings()
  * @method static \RAGFlow\Resources\Edits edits()
  * @method static \RAGFlow\Resources\Files files()
+ * @method static \RAGFlow\Resources\Chunks chunks()
  * @method static \RAGFlow\Resources\FineTunes fineTunes()
  * @method static \RAGFlow\Resources\Images images()
  * @method static \RAGFlow\Resources\Models models()
