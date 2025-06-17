@@ -11,7 +11,7 @@ use RAGFlow\Responses\StreamResponse;
 
 /**
  * @method static \RAGFlow\Resources\Assistants assistants()
- * @method static \RAGFlow\Resources\Chat chat()
+ * @method static \RAGFlow\Resources\Chats chats()
  * @method static \RAGFlow\Resources\Completions completions()
  * @method static \RAGFlow\Resources\Files files()
  * @method static \RAGFlow\Resources\Chunks chunks()
