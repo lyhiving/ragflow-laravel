@@ -12,6 +12,7 @@ use RAGFlow\Responses\StreamResponse;
 /**
  * @method static \RAGFlow\Resources\Agents agents()
  * @method static \RAGFlow\Resources\Chats chats()
+ * @method static \RAGFlow\Resources\Sesseions sessions()
  * @method static \RAGFlow\Resources\Completions completions()
  * @method static \RAGFlow\Resources\Files files()
  * @method static \RAGFlow\Resources\Chunks chunks()
