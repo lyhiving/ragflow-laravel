@@ -10,7 +10,7 @@ use RAGFlow\Laravel\Testing\RAGFlowFake;
 use RAGFlow\Responses\StreamResponse;
 
 /**
- * @method static \RAGFlow\Resources\Assistants assistants()
+ * @method static \RAGFlow\Resources\Agents agents()
  * @method static \RAGFlow\Resources\Chats chats()
  * @method static \RAGFlow\Resources\Completions completions()
  * @method static \RAGFlow\Resources\Files files()
